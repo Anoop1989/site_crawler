@@ -1,0 +1,6 @@
+createuser -s site_crawler
+createdb -O site_crawler site_crawler
+
+# cleanup commands
+dropdb -U site_crawler site_crawler
+dropuser site_crawler
